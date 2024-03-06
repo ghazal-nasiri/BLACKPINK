@@ -40,7 +40,7 @@ window.addEventListener("load", () => {
 ///////// show image blackpink by touchmove
 let imgBlackpink = document.querySelector(".blackpink");
 let logoBP = document.querySelector(".left");
-left.addEventListener("touchmove" , ()=>{
+logoBP.addEventListener("touchmove" , ()=>{
     imgBlackpink.style.opacity = ".7";
 })
 
