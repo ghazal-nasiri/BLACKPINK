@@ -43,5 +43,9 @@ let logoBP = document.querySelector(".left");
 logoBP.addEventListener("touchmove" , ()=>{
     imgBlackpink.style.opacity = ".7";
 })
+logoBP.addEventListener("ontouchend" , ()=>{
+    imgBlackpink.style.opacity = "0";
+
+    })
 
 
